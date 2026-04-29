@@ -22,6 +22,13 @@ No cenário atual, muitas decisões no campo ainda são tomadas de forma reativa
 
 A proposta deste projeto é transformar esse modelo reativo em um modelo preventivo, utilizando dados como clima, tipo de solo, localização e histórico de uso para antecipar situações de risco e apoiar a tomada de decisão de operadores, gestores e seguradoras.
 
+
+## 📊 Apresentação
+
+Acesse a apresentação completa do projeto:
+
+👉 [Visualizar apresentação](Arquitetura_de_Sistema_de_IA_para_Previsão_de_Riscos_em_Equipamentos_Agrícolas.pdf)
+
 ---
 
 ## ⚠️ Problema
