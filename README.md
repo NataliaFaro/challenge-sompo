@@ -88,13 +88,12 @@ A solução utilizará dados simulados representando variáveis ambientais e ope
 
 > **Os dados utilizados neste projeto são simulados, construídos com base em padrões reais observados no setor agrícola e em variáveis que influenciam diretamente o risco operacional, como clima, solo, uso do equipamento e histórico de falhas.**
 
-### 📋 Exemplo de Dataset:
+## 📊 Dataset
 
-| temperatura | umidade | tipo_solo | chuva_24h | proximidade_agua | inclinacao | tipo_operacao | horas_uso | historico_falhas | risco |
-| ----------- | ------- | --------- | --------- | ---------------- | ---------- | ------------- | --------- | ---------------- | ----- |
-| 30          | 80      | argiloso  | 50        | 100m             | 12°        | campo         | 120       | 3                | alto  |
-| 25          | 60      | arenoso   | 10        | 500m             | 5°         | transporte    | 80        | 1                | médio |
-| 22          | 55      | misto     | 0         | 1km              | 2°         | campo         | 50        | 0                | baixo |
+Acesse o dataset utilizado no projeto:
+
+[Download do dataset](dataset_riscos_agricolas.xlsx)
+
 
 ### 🔎 Variáveis consideradas:
 
