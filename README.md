@@ -88,7 +88,6 @@ A solução utilizará dados simulados representando variáveis ambientais e ope
 
 > **Os dados utilizados neste projeto são simulados, construídos com base em padrões reais observados no setor agrícola e em variáveis que influenciam diretamente o risco operacional, como clima, solo, uso do equipamento e histórico de falhas.**
 
-## 📊 Dataset
 
 Acesse o dataset utilizado no projeto:
 
