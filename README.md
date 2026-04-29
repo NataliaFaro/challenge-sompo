@@ -192,7 +192,7 @@ A solução contará com:
 
 ## 🎥 Vídeo de Apresentação
 
-Link do vídeo (YouTube): 
+Link do vídeo (YouTube): https://youtu.be/6ZY3w8G3FbI
 
 ---
 
