@@ -198,9 +198,9 @@ Link do vídeo (YouTube): https://youtu.be/6ZY3w8G3FbI
 
 ## 📁 Estrutura do Repositório
 
-* `/data` → datasets simulados
-* `/notebooks` → análises e modelagem
-* `/src` → código da aplicação
-* `README.md` → documentação do projeto
+
+- dataset_riscos_agricolas.xlsx → dataset utilizado no projeto  
+- Arquitetura_de_Sistema_de_IA_para_Previsão_de_Riscos_em_Equipamentos_Agrícolas.pdf → apresentação do projeto  
+- README.md → documentação completa do projeto  
 
 ---
