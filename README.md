@@ -348,7 +348,7 @@ A matriz de confusão foi utilizada para avaliar o desempenho do modelo Random F
 
 O resultado demonstrou elevada taxa de acerto nas classificações de risco baixo, médio e alto, reforçando a coerência do modelo preditivo.
 
-![Matriz de Confusão](matriz_confusao.png)
+![Matriz de Confusão](Matriz de Confusão.png)
 
 
 ## 📊 Dashboard e Alertas
