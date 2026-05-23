@@ -8,6 +8,14 @@ FIAP - Faculdade de Informática e Admnistração Paulista
 
 Natalia de Lima Faro - RM 568610
 
+## 📌 Status do Projeto
+
+| Sprint | Status |
+|---|---|
+| Sprint 1 | ✅ Concluída |
+| Sprint 2 | 🚧 Concluída |
+| Sprint 3 | 🚧 Em desenvolvimento |
+
 ## 👩‍🏫 Professores
 
 
@@ -21,6 +29,8 @@ Este projeto tem como objetivo desenvolver uma solução baseada em dados e Inte
 No cenário atual, muitas decisões no campo ainda são tomadas de forma reativa, ou seja, apenas após a ocorrência de falhas ou acidentes. Isso pode gerar altos custos operacionais, danos aos equipamentos e riscos à segurança.
 
 A proposta deste projeto é transformar esse modelo reativo em um modelo preventivo, utilizando dados como clima, tipo de solo, localização e histórico de uso para antecipar situações de risco e apoiar a tomada de decisão de operadores, gestores e seguradoras.
+
+# 📌 Sprint 1 — Estruturação da Solução
 
 
 ## 📊 Apresentação
@@ -195,6 +205,9 @@ A solução contará com:
 Link do vídeo (YouTube): https://youtu.be/6ZY3w8G3FbI
 
 ---
+
+# 🚀 Sprint 2 — Implementação Técnica e Inteligência Preditiva
+
 
 ## 📁 Estrutura do Repositório
 
