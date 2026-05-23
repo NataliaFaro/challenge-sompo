@@ -358,6 +358,24 @@ Exemplo da execução da consulta no Oracle SQL Developer:
 ![Consulta SQL - Horas Uso](Sprint2/Horas_Uso.png)
 
 ---
+## 🏗️ Arquitetura da Solução
+
+A arquitetura da solução representa o fluxo completo dos dados, desde a coleta das informações até a geração de alertas preventivos e visualizações para os usuários finais.
+
+O pipeline contempla:
+
+- Fontes de dados climáticos e operacionais;
+- Coleta e integração via sensores e APIs;
+- Persistência em banco de dados SQL;
+- Processamento e preparação dos dados;
+- Modelo preditivo baseado em Random Forest;
+- Geração de scores de risco e alertas operacionais;
+- Interface de monitoramento em tempo real.
+
+### Diagrama da Arquitetura
+![Arquitetura da Solução](Sprint1/diagrama.png)
+
+---
 ## 🤖 Modelo Preditivo de IA
 - Random Forest
 - Acurácia
