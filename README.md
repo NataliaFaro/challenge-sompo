@@ -1,6 +1,4 @@
 FIAP - Faculdade de Informática e Administração Paulista
-FIAP - Faculdade de Informática e Admnistração Paulista
-
 
 # 🌱 Challenge Sompo - Previsão de Riscos em Equipamentos Agrícolas
 
@@ -18,8 +16,6 @@ Natalia de Lima Faro - RM 568610
 
 ## 👩‍🏫 Professores
 
-
-
 ---
 
 ## 📜 Descrição do Projeto
@@ -30,10 +26,10 @@ No cenário atual, muitas decisões no campo ainda são tomadas de forma reativa
 
 A proposta deste projeto é transformar esse modelo reativo em um modelo preventivo, utilizando dados como clima, tipo de solo, localização e histórico de uso para antecipar situações de risco e apoiar a tomada de decisão de operadores, gestores e seguradoras.
 
+---
 # 📌 Sprint 1 — Estruturação da Solução
 
-
-## 📊 Apresentação
+## Apresentação
 
 Acesse a apresentação completa do projeto:
 
@@ -68,7 +64,7 @@ Desenvolver uma plataforma inteligente que:
 * Gera alertas preventivos em tempo real
 * Fornece recomendações para evitar incidentes
 
-### 🔍 Funcionalidades principais:
+### Funcionalidades principais:
 
 * 🚨 Alertas de risco (baixo, médio, alto)
 * 📊 Score de risco (0 a 100)
@@ -77,21 +73,20 @@ Desenvolver uma plataforma inteligente que:
 
 ---
 
-## 👤 Personas
-
-### 🚜 Operador
+## Personas
+### Operador
 
 * Atua diretamente no campo
 * Precisa evitar acidentes e falhas
 * Utiliza alertas rápidos e objetivos
 
-### 📊 Gestor Agrícola
+### Gestor Agrícola
 
 * Responsável pela operação
 * Busca reduzir custos e otimizar processos
 * Precisa de relatórios e visão consolidada
 
-### 🏢 Seguradora (Sompo)
+### Seguradora (Sompo)
 
 * Avalia e gerencia riscos
 * Define políticas de seguro
@@ -99,7 +94,7 @@ Desenvolver uma plataforma inteligente que:
 
 ---
 
-## 📊 Estrutura de Dados
+## Estrutura de Dados
 
 A solução utilizará dados simulados representando variáveis ambientais e operacionais.
 
@@ -111,7 +106,7 @@ Acesse o dataset utilizado no projeto:
 [Download do dataset](dataset_riscos_agricolas.xlsx)
 
 
-### 🔎 Variáveis consideradas:
+### Variáveis consideradas:
 
 * Clima (temperatura, umidade, chuva)
 * Solo (tipo, inclinação)
@@ -122,11 +117,11 @@ Acesse o dataset utilizado no projeto:
 
 ---
 
-## 🤖 Modelo de IA (Proposta Inicial)
+## Modelo de IA (Proposta Inicial)
 
 Será utilizado um modelo de **classificação de risco**, com base nos dados coletados.
 
-### 📌 Abordagem:
+### Abordagem:
 
 * Tipo: Classificação (baixo, médio, alto)
 * Entrada: variáveis ambientais + operacionais
@@ -135,20 +130,20 @@ Será utilizado um modelo de **classificação de risco**, com base nos dados co
   * Categoria de risco
   * Score de risco
 
-### 🧠 Modelos sugeridos:
+### Modelos sugeridos:
 
 * Random Forest
 * Regressão Logística
 
 ---
 
-## 🏗️ Arquitetura da Solução
+## Arquitetura da Solução
 
-### 🔄 Fluxo da Solução:
+### Fluxo da Solução:
 
 Sensores / APIs → Coleta de Dados → Banco de Dados → Modelo de IA → API → Dashboard
 
-### ⚙️ Componentes:
+### Componentes:
 
 * 📡 Sensores (IoT) para coleta de dados
 * 🌐 APIs externas (clima)
@@ -156,12 +151,10 @@ Sensores / APIs → Coleta de Dados → Banco de Dados → Modelo de IA → API 
 * 🤖 Modelo de Machine Learning (Python)
 * 📊 Dashboard (Power BI ou aplicação web)
 
----
 
-## 📱 Interface
+## Interface
 
 A solução contará com:
-
 * Dashboard com:
 
   * Visualização de risco por equipamento
@@ -169,36 +162,26 @@ A solução contará com:
   * Histórico de eventos
 
 * Alertas:
+  * Alto risco de atolamento
+  * Evitar operação em determinada área
 
-  * ⚠️ Alto risco de atolamento
-  * 🚫 Evitar operação em determinada área
-
----
-
-## 🔐 Segurança
+## Segurança
 
 * Controle de acesso por usuário
 * Proteção de dados sensíveis
 * Garantia de integridade das informações
 
----
-
 ## 📅 Planejamento das Próximas Sprints
 
 ### Sprint 2
-
 * Criação do dataset
 * Análise exploratória dos dados
 
 ### Sprint 3
-
 * Desenvolvimento do modelo preditivo
 
 ### Sprint 4
-
 * Desenvolvimento do dashboard
-
----
 
 ## 🎥 Vídeo de Apresentação
 
@@ -208,10 +191,145 @@ Link do vídeo (YouTube): https://youtu.be/6ZY3w8G3FbI
 
 # 🚀 Sprint 2 — Implementação Técnica e Inteligência Preditiva
 
+## 📌 Objetivo da Sprint 2
+A Sprint 2 tem como objetivo transformar a proposta conceitual desenvolvida na Sprint 1 em uma solução técnica integrada, conectando coleta de dados, armazenamento em banco SQL e modelos de Inteligência Artificial.
+
+Nesta etapa, o foco principal é implementar a inteligência de dados da solução, permitindo a análise preditiva de riscos operacionais em equipamentos agrícolas por meio da integração entre dados climáticos reais, variáveis operacionais simuladas e modelos supervisionados de Machine Learning.
+
+Além disso, a Sprint 2 busca demonstrar o fluxo completo da solução, desde a ingestão dos dados até a geração de scores de risco, alertas preventivos e visualizações em dashboards.
+
+## 🔄 Evolução em Relação à Sprint 1
+Na Sprint 1, o projeto foi estruturado de forma conceitual, incluindo definição do problema, arquitetura inicial, personas, variáveis de risco e proposta de solução baseada em Inteligência Artificial.
+
+Já na Sprint 2, o projeto evolui para uma abordagem prática e funcional, incorporando:
+
+- Integração de dados climáticos reais extraídos do INMET;
+- Estruturação de datasets operacionais para análise preditiva;
+- Implementação de banco de dados SQL para persistência das informações;
+- Desenvolvimento inicial do modelo de Machine Learning;
+- Geração de scores de risco e classificações preventivas;
+- Construção de dashboards e evidências visuais da solução.
+
+Com isso, o projeto deixa de ser apenas conceitual e passa a demonstrar tecnicamente a viabilidade da arquitetura proposta.
+
+## 📊 Dataset Integrado: INMET + Dados Simulados
+O dataset utilizado na Sprint 2 combina dados meteorológicos reais extraídos do Instituto Nacional de Meteorologia (INMET) com variáveis operacionais simuladas relacionadas ao uso de equipamentos agrícolas. 
+
+Os dados climáticos reais foram coletados da estação meteorológica de Avaré/SP, no período de 01/03/2026 a 31/03/2026, incluindo variáveis como:
+
+- Temperatura;
+- Umidade do ar;
+- Precipitação (chuva);
+- Pressão atmosférica;
+- Velocidade do vento.
+
+Link: https://tempo.inmet.gov.br/TabelaEstacoes/A001
+
+Esses dados foram integrados a informações simuladas de contexto operacional, como:
+
+- Horas de uso do equipamento;
+- Vibração do motor;
+- Proximidade de corpos d’água;
+- Declividade do terreno;
+- Quantidade de falhas anteriores.
+
+A combinação entre dados reais e simulados permite representar cenários agrícolas coerentes com situações de risco operacional, possibilitando análises estatísticas e treinamento de modelos preditivos de classificação de risco.
+
+## 📖 Dicionário de Dados
+| Variável | Descrição | Tipo |
+|---|---|---|
+| Data | Data da coleta meteorológica | Data |
+| Hora (UTC) | Horário da medição em UTC | Texto |
+| Temp. Ins. (C) | Temperatura instantânea registrada | Numérico |
+| Temp. Max. (C) | Temperatura máxima registrada | Numérico |
+| Temp. Min. (C) | Temperatura mínima registrada | Numérico |
+| Umi. Ins. (%) | Umidade relativa instantânea do ar | Numérico |
+| Umi. Max. (%) | Umidade relativa máxima registrada | Numérico |
+| Umi. Min. (%) | Umidade relativa mínima registrada | Numérico |
+| Pressao Ins. (hPa) | Pressão atmosférica instantânea | Numérico |
+| Vel. Vento (m/s) | Velocidade do vento registrada | Numérico |
+| Chuva (mm) | Volume de precipitação registrado | Numérico |
+| Horas Uso | Quantidade acumulada de horas de uso do equipamento | Numérico |
+| Vibração Motor | Índice simulado de vibração do motor | Numérico |
+| Proximidade Água (m) | Distância simulada até corpos d’água | Numérico |
+| Declividade (°) | Inclinação simulada do terreno | Numérico |
+| Qtidade Falhas | Quantidade simulada de falhas anteriores do equipamento | Numérico |
+
+### 📌 Origem dos Dados
+
+O dataset utilizado combina:
+
+- Dados meteorológicos reais extraídos do INMET (Instituto Nacional de Meteorologia);
+- Variáveis operacionais simuladas para representar condições de uso de equipamentos agrícolas.
+
+Essa abordagem híbrida permite criar cenários coerentes para treinamento e validação de modelos preditivos de risco operacional.
+
+## 🗄️ Banco de Dados SQL
+
+Para a Sprint 2, foi implementada a persistência dos dados utilizando Oracle SQL Developer, permitindo armazenar e consultar informações relacionadas aos riscos operacionais dos equipamentos agrícolas.
+
+A tabela `SPRINT2_RISCOSAGRICOLAS` foi criada para integrar:
+
+- Dados climáticos reais extraídos do INMET;
+- Variáveis operacionais simuladas;
+- Informações utilizadas posteriormente pelo modelo preditivo de risco.
+
+### 📌 Estrutura da Tabela
+
+A tabela foi modelada para armazenar variáveis ambientais e operacionais relevantes para a análise de risco agrícola, incluindo:
+
+- Temperatura;
+- Umidade;
+- Chuva;
+- Pressão atmosférica;
+- Velocidade do vento;
+- Horas de uso do equipamento;
+- Vibração do motor;
+- Proximidade de corpos d’água;
+- Declividade;
+- Quantidade de falhas.
+
+### 🧱 Script SQL de Criação
+
+```sql
+CREATE TABLE SPRINT2_RISCOSAGRICOLAS (
+    data_coleta DATE,
+    hora_utc VARCHAR2(26),
+
+    temp_ins NUMBER,
+    temp_max NUMBER,
+    temp_min NUMBER,
+
+    umi_ins NUMBER,
+    umi_max NUMBER,
+    umi_min NUMBER,
+
+    pressao_ins NUMBER,
+    vel_vento NUMBER,
+    chuva_mm NUMBER,
+
+    horas_uso NUMBER,
+    vibracao_motor NUMBER,
+    proximidade_agua NUMBER,
+    declividade NUMBER,
+    qtidade_falhas NUMBER
+);
+
+## 🤖 Modelo Preditivo de IA
+
+## 📈 Validação Estatística
+
+## 📊 Dashboard e Alertas
+
+## 🏗️ Arquitetura Atualizada da Sprint 2
+
+## 📸 Evidências de Execução
+
+## ⚙️ Como Executar o Projeto
+
+## 🎥 Vídeo da Sprint 2
 
 ## 📁 Estrutura do Repositório
-
-
 - dataset_riscos_agricolas.xlsx → dataset utilizado no projeto  
 - Arquitetura_de_Sistema_de_IA_para_Previsão_de_Riscos_em_Equipamentos_Agrícolas.pdf → apresentação do projeto  
 - README.md → documentação completa do projeto  
