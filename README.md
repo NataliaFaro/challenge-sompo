@@ -461,6 +461,8 @@ Contém os arquivos relacionados à implementação técnica da solução:
 - Dataset integrado (INMET + dados simulados);
 - Scripts SQL utilizados no Oracle SQL Developer;
 - Notebook Python desenvolvido no Google Colab;
+- Arquitetura técnica da solução;
+- Modelo preditivo Random Forest;
 - Heatmap de correlação;
 - Matriz de confusão;
 - Relatório de classificação;
