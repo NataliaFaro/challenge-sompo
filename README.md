@@ -12,9 +12,9 @@ Natalia de Lima Faro - RM 568610
 
 | Sprint | Status |
 |---|---|
-| Sprint 1 | ✅ Concluída |
-| Sprint 2 | 🚧 Concluída |
-| Sprint 3 | 🚧 Em desenvolvimento |
+| 1 | ✅ Concluída |
+| 2 | ✅ Concluída |
+| 3 | 🚧 Em desenvolvimento |
 
 ## 👩‍🏫 Professores
 
