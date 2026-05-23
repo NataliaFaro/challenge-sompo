@@ -213,7 +213,6 @@ Com isso, torna-se possível:
 - Aumentar previsibilidade operacional;
 - Apoiar auditorias e rastreabilidade dos eventos.
 
----
 ### Visão do Cliente / Gestor Agrícola
 
 Para o gestor agrícola, a plataforma oferece suporte à tomada de decisão operacional, permitindo identificar equipamentos com maior probabilidade de falha ou operação em áreas críticas.
@@ -225,7 +224,6 @@ Os principais benefícios incluem:
 - Monitoramento de áreas de risco;
 - Visualização consolidada das operações.
 
----
 ### Visão do Usuário Final/Operador
 
 O operador recebe alertas preventivos e classificações de risco em tempo real, auxiliando diretamente na segurança durante a operação agrícola.
@@ -237,6 +235,7 @@ A solução contribui para:
 - Melhor tomada de decisão em campo;
 - Maior segurança operacional.
 
+---
 ## 🔄 Evolução em Relação à Sprint 1
 Na Sprint 1, o projeto foi estruturado de forma conceitual, incluindo definição do problema, arquitetura inicial, personas, variáveis de risco e proposta de solução baseada em Inteligência Artificial.
 
