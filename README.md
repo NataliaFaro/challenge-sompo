@@ -359,14 +359,34 @@ Os resultados demonstraram elevado desempenho do modelo na classificação dos n
 
 ![Relatório de Classificação](Sprint2/relatorio_classificação.png)
 
+---
+## ⚙️ Como Executar o Projeto
 
+1. Executar os scripts SQL no Oracle SQL Developer;
+2. Importar o dataset integrado;
+3. Executar o notebook Python no Google Colab;
+4. Gerar métricas e análises estatísticas;
+5. Visualizar os resultados do modelo preditivo.
+
+---
 ## 🎥 Vídeo da Sprint 2
 
 
 ---
 ## 📁 Estrutura do Repositório
-- dataset_riscos_agricolas.xlsx → dataset utilizado no projeto  
-- Arquitetura_de_Sistema_de_IA_para_Previsão_de_Riscos_em_Equipamentos_Agrícolas.pdf → apresentação do projeto  
-- README.md → documentação completa do projeto  
 
----
+###  Sprint1
+- Arquitetura inicial da solução
+- Dataset conceitual
+- Apresentação da Sprint 1
+
+###  Sprint2
+- Dataset integrado (INMET + dados simulados)
+- Scripts SQL
+- Notebook Python
+- Heatmap de correlação
+- Matriz de confusão
+- Relatório de classificação
+- Evidências visuais
+
+
