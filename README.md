@@ -198,6 +198,45 @@ Nesta etapa, o foco principal é implementar a inteligência de dados da soluç�
 
 Além disso, a Sprint 2 busca demonstrar o fluxo completo da solução, desde a ingestão dos dados até a geração de scores de risco, alertas preventivos e visualizações em dashboards.
 
+## 🎯 Visões Atendidas pela Solução
+
+A solução proposta foi desenvolvida para atender diferentes perspectivas envolvidas na operação agrícola e na gestão de riscos da seguradora.
+
+### Visão da Seguradora (Sompo)
+
+A solução permite à seguradora atuar de forma preventiva, utilizando dados e Inteligência Artificial para identificar padrões de risco operacional antes da ocorrência de sinistros.
+
+Com isso, torna-se possível:
+
+- Reduzir custos relacionados a indenizações;
+- Melhorar análise de risco dos segurados;
+- Aumentar previsibilidade operacional;
+- Apoiar auditorias e rastreabilidade dos eventos.
+
+---
+### Visão do Cliente / Gestor Agrícola
+
+Para o gestor agrícola, a plataforma oferece suporte à tomada de decisão operacional, permitindo identificar equipamentos com maior probabilidade de falha ou operação em áreas críticas.
+
+Os principais benefícios incluem:
+
+- Redução de custos operacionais;
+- Planejamento preventivo de manutenção;
+- Monitoramento de áreas de risco;
+- Visualização consolidada das operações.
+
+---
+### Visão do Usuário Final/Operador
+
+O operador recebe alertas preventivos e classificações de risco em tempo real, auxiliando diretamente na segurança durante a operação agrícola.
+
+A solução contribui para:
+
+- Redução de acidentes;
+- Evitar atolamentos e falhas mecânicas;
+- Melhor tomada de decisão em campo;
+- Maior segurança operacional.
+
 ## 🔄 Evolução em Relação à Sprint 1
 Na Sprint 1, o projeto foi estruturado de forma conceitual, incluindo definição do problema, arquitetura inicial, personas, variáveis de risco e proposta de solução baseada em Inteligência Artificial.
 
@@ -388,5 +427,6 @@ Os resultados demonstraram elevado desempenho do modelo na classificação dos n
 - Matriz de confusão
 - Relatório de classificação
 - Evidências visuais
+
 
 
