@@ -33,7 +33,7 @@ A proposta deste projeto é transformar esse modelo reativo em um modelo prevent
 
 Acesse a apresentação completa do projeto:
 
-👉 [Visualizar apresentação](Arquitetura_de_Sistema_de_IA_para_Previsão_de_Riscos_em_Equipamentos_Agrícolas.pdf)
+👉 [Visualizar apresentação](Sprint1/Arquitetura_de_Sistema.pdf)
 
 ---
 
