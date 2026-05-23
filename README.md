@@ -307,10 +307,14 @@ Exemplo da execução da consulta no Oracle SQL Developer:
 
 
 ## 🤖 Modelo Preditivo de IA
-- HeatMap
 - Random Forest
+- Acurácia
 
 ### Validação Estatística
+- Heat Map
+- Matriz de Confusão
+ 
+ 
 Durante a Sprint 2, foram realizadas análises estatísticas exploratórias para identificar correlações entre variáveis ambientais e operacionais presentes no dataset.
 
 O objetivo foi compreender como fatores climáticos e operacionais influenciam o comportamento do risco agrícola, permitindo validar a coerência dos dados utilizados no modelo preditivo.
@@ -331,7 +335,20 @@ Foi possível identificar:
 O tratamento dos dados e as conversões numéricas foram realizados em Python utilizando Pandas, permitindo a preparação do dataset para análise estatística e treinamento do modelo preditivo.
 [Visualizar notebook da análise preditiva](Sprint2_Sompo_HeatMap.ipynb)
 
+### Modelo Random Forest
+Foi utilizado o algoritmo Random Forest para realizar a classificação dos níveis de risco operacional dos equipamentos agrícolas.
 
+O modelo recebeu como entrada variáveis climáticas e operacionais, como temperatura, umidade, chuva, horas de uso, vibração do motor, proximidade de corpos d’água, declividade e histórico de falhas.
+
+A saída do modelo foi a classificação do risco em três níveis: Baixo; Médio e Alto.
+A acurácia obtida foi de **98,65%**, indicando bom desempenho do modelo na base utilizada.
+
+### Matriz de Confusão
+A matriz de confusão foi utilizada para avaliar o desempenho do modelo Random Forest na classificação dos níveis de risco operacional.
+
+O resultado demonstrou elevada taxa de acerto nas classificações de risco baixo, médio e alto, reforçando a coerência do modelo preditivo.
+
+![Matriz de Confusão](matriz_confusao.png)
 
 
 ## 📊 Dashboard e Alertas
