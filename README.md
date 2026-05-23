@@ -274,7 +274,7 @@ A tabela `SPRINT2_RISCOSAGRICOLAS` foi criada para integrar:
 - Variáveis operacionais simuladas;
 - Informações utilizadas posteriormente pelo modelo preditivo de risco.
 
-### 📌 Estrutura da Tabela
+### Estrutura da Tabela
 A tabela foi modelada para armazenar variáveis ambientais e operacionais relevantes para a análise de risco agrícola, incluindo:
 
 - Temperatura;
@@ -288,11 +288,19 @@ A tabela foi modelada para armazenar variáveis ambientais e operacionais releva
 - Declividade;
 - Quantidade de falhas.
 
-### 📂 Script SQL Utilizado
+### Script SQL Utilizado
 👉 [Visualizar tabela SQL](SPRINT2_RISCOSAGRICOLAS.sql)
 
 ### Consultas SQL Utilizadas
 Exemplo de consulta para identificação de equipamentos com alto desgaste operacional:
+
+```sql
+SELECT *
+FROM SPRINT2_RISCOSAGRICOLAS
+WHERE HORAS_USO > 400;
+
+### Resultado da Consulta SQL
+Exemplo de consulta executada no Oracle SQL Developer para identificação de equipamentos com alto desgaste operacional.
 
 ```sql
 SELECT *
