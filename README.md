@@ -289,23 +289,21 @@ A tabela foi modelada para armazenar variáveis ambientais e operacionais releva
 - Quantidade de falhas.
 
 ### Script SQL Utilizado
-👉 [Visualizar tabela SQL](SPRINT2_RISCOSAGRICOLAS.sql)
+[Visualizar tabela SQL](SPRINT2_RISCOSAGRICOLAS.sql)
 
-### Consultas SQL Utilizadas
-Exemplo de consulta para identificação de equipamentos com alto desgaste operacional:
-
-```sql
-SELECT *
-FROM SPRINT2_RISCOSAGRICOLAS
-WHERE HORAS_USO > 400;
-
-### Resultado da Consulta SQL
-Exemplo de consulta executada no Oracle SQL Developer para identificação de equipamentos com alto desgaste operacional.
+### Consulta SQL — Alto Desgaste Operacional
+Consulta utilizada para identificar equipamentos com elevado tempo de uso operacional.
 
 ```sql
 SELECT *
 FROM SPRINT2_RISCOSAGRICOLAS
 WHERE HORAS_USO > 400;
+```
+
+### Resultado da Consulta
+Exemplo da execução da consulta no Oracle SQL Developer:
+![Consulta SQL - Horas Uso](Horas_Uso.png)
+
 
 ## 🤖 Modelo Preditivo de IA
 
