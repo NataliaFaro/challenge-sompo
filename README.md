@@ -310,9 +310,10 @@ Exemplo da execução da consulta no Oracle SQL Developer:
 - Random Forest
 - Acurácia
 
-### Validação Estatística
+## Validação Estatística
 - Heat Map
 - Matriz de Confusão
+- Relatório de Classificação
  
  
 Durante a Sprint 2, foram realizadas análises estatísticas exploratórias para identificar correlações entre variáveis ambientais e operacionais presentes no dataset.
@@ -350,17 +351,19 @@ O resultado demonstrou elevada taxa de acerto nas classificações de risco baix
 
 ![Matriz de Confusão](Matriz_de_Confusão.png)
 
+###Relatório de Classificação
 
-## 📊 Dashboard e Alertas
+O relatório de classificação foi utilizado para avaliar métricas como precisão, recall e F1-score do modelo Random Forest.
 
-## 🏗️ Arquitetura Atualizada da Sprint 2
+Os resultados demonstraram elevado desempenho do modelo na classificação dos níveis de risco operacional, reforçando a consistência da abordagem preditiva adotada.
 
-## 📸 Evidências de Execução
+![Relatório de Classificação](relatorio_classificação.png)
 
-## ⚙️ Como Executar o Projeto
 
 ## 🎥 Vídeo da Sprint 2
 
+
+---
 ## 📁 Estrutura do Repositório
 - dataset_riscos_agricolas.xlsx → dataset utilizado no projeto  
 - Arquitetura_de_Sistema_de_IA_para_Previsão_de_Riscos_em_Equipamentos_Agrícolas.pdf → apresentação do projeto  
