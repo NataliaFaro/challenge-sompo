@@ -198,42 +198,56 @@ Nesta etapa, o foco principal é implementar a inteligência de dados da soluç�
 
 Além disso, a Sprint 2 busca demonstrar o fluxo completo da solução, desde a ingestão dos dados até a geração de scores de risco, alertas preventivos e visualizações em dashboards.
 
-## 🎯 Visões Atendidas pela Solução
+## 🎯 Personas e Visões Atendidas pela Solução
 
 A solução proposta foi desenvolvida para atender diferentes perspectivas envolvidas na operação agrícola e na gestão de riscos da seguradora.
 
-### Visão da Seguradora (Sompo)
+### Seguradora Sompo e sua visão
 
-A solução permite à seguradora atuar de forma preventiva, utilizando dados e Inteligência Artificial para identificar padrões de risco operacional antes da ocorrência de sinistros.
+A seguradora atua na análise e mitigação de riscos relacionados às operações agrícolas, buscando reduzir sinistros e melhorar a previsibilidade operacional dos segurados.
+
+Seu principal desafio é antecipar situações de risco antes da ocorrência de danos ou perdas operacionais.
+
+A solução utiliza dados climáticos, operacionais e históricos para geração de análises preditivas e scores de risco, permitindo uma atuação preventiva baseada em Inteligência Artificial.
 
 Com isso, torna-se possível:
 
 - Reduzir custos relacionados a indenizações;
-- Melhorar análise de risco dos segurados;
-- Aumentar previsibilidade operacional;
+- Melhorar a análise de risco dos segurados;
+- Aumentar a previsibilidade operacional;
 - Apoiar auditorias e rastreabilidade dos eventos.
 
-### Visão do Cliente / Gestor Agrícola
+### Gestor Agrícola e sua visão
 
-Para o gestor agrícola, a plataforma oferece suporte à tomada de decisão operacional, permitindo identificar equipamentos com maior probabilidade de falha ou operação em áreas críticas.
+O gestor agrícola é responsável pelo acompanhamento operacional da frota e pela tomada de decisão estratégica relacionada à produtividade e manutenção dos equipamentos.
 
-Os principais benefícios incluem:
+Seu principal desafio é reduzir custos operacionais e evitar interrupções causadas por falhas inesperadas ou operação em áreas críticas.
+
+A solução oferece suporte à tomada de decisão operacional por meio de dashboards consolidados, visualização de riscos por equipamento e região, além de indicadores preventivos que auxiliam no planejamento das operações e da manutenção.
+
+Com isso, os principais benefícios incluem:
 
 - Redução de custos operacionais;
 - Planejamento preventivo de manutenção;
 - Monitoramento de áreas de risco;
-- Visualização consolidada das operações.
+- Visualização consolidada das operações;
+- Maior previsibilidade operacional da frota.
 
-### Visão do Usuário Final/Operador
+### Usuário Final/Operador e sua visão
 
-O operador recebe alertas preventivos e classificações de risco em tempo real, auxiliando diretamente na segurança durante a operação agrícola.
+O operador atua diretamente no campo durante as operações agrícolas e enfrenta diariamente condições variáveis de clima e solo, muitas vezes sem informações suficientes para avaliar os riscos operacionais da área.
 
-A solução contribui para:
+Seu principal desafio é evitar situações como atolamentos, falhas mecânicas e acidentes durante a operação dos equipamentos.
 
-- Redução de acidentes;
-- Evitar atolamentos e falhas mecânicas;
+A solução auxilia o operador por meio de alertas preventivos e classificações de risco em tempo real, permitindo decisões mais seguras sobre continuidade da operação, mudança de rota ou interrupção temporária da atividade.
+
+Com isso, a solução contribui para:
+
+- Redução de acidentes operacionais;
+- Prevenção de atolamentos e falhas mecânicas;
 - Melhor tomada de decisão em campo;
-- Maior segurança operacional.
+- Maior segurança durante as operações agrícolas;
+- Apoio preventivo em situações de risco elevado.
 
 ---
 ## 🔄 Evolução em Relação à Sprint 1
