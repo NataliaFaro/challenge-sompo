@@ -254,6 +254,7 @@ A combinação entre dados reais e simulados permite representar cenários agrí
 | Proximidade Água (m) | Distância simulada até corpos d’água | Numérico |
 | Declividade (°) | Inclinação simulada do terreno | Numérico |
 | Qtidade Falhas | Quantidade simulada de falhas anteriores do equipamento | Numérico |
+| classificacao_risco | Classificação preditiva do nível de risco operacional | Texto |
 
 ### 📌 Origem dos Dados
 
