@@ -308,6 +308,23 @@ Exemplo da execução da consulta no Oracle SQL Developer:
 
 ## 🤖 Modelo Preditivo de IA
 
+### Validação Estatística
+Durante a Sprint 2, foram realizadas análises estatísticas exploratórias para identificar correlações entre variáveis ambientais e operacionais presentes no dataset.
+
+O objetivo foi compreender como fatores climáticos e operacionais influenciam o comportamento do risco agrícola, permitindo validar a coerência dos dados utilizados no modelo preditivo.
+
+### Heatmap de Correlação
+O heatmap abaixo apresenta a matriz de correlação entre as principais variáveis do projeto.
+
+Foi possível identificar:
+
+- Forte correlação positiva entre variáveis de temperatura;
+- Forte correlação positiva entre variáveis de umidade;
+- Correlação negativa entre temperatura e umidade;
+- Relações coerentes entre fatores ambientais e operacionais.
+
+![Heatmap de Correlação](Heatmap_Correlação.png)
+
 ## 📈 Validação Estatística
 
 ## 📊 Dashboard e Alertas
