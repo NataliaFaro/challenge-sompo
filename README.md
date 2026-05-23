@@ -343,12 +343,13 @@ WHERE HORAS_USO > 400;
 Exemplo da execução da consulta no Oracle SQL Developer:
 ![Consulta SQL - Horas Uso](Sprint2/Horas_Uso.png)
 
-
+---
 ## 🤖 Modelo Preditivo de IA
 - Random Forest
 - Acurácia
 
-## Validação Estatística
+---
+## 📈 Validação Estatística
 - Heat Map
 - Matriz de Confusão
 - Relatório de Classificação
@@ -413,19 +414,25 @@ Os resultados demonstraram elevado desempenho do modelo na classificação dos n
 ---
 ## 📁 Estrutura do Repositório
 
-###  Sprint1
-- Arquitetura inicial da solução
-- Dataset conceitual
-- Apresentação da Sprint 1
+### 📂 Sprint1
+Contém os arquivos relacionados à estruturação inicial da solução:
 
-###  Sprint2
-- Dataset integrado (INMET + dados simulados)
-- Scripts SQL
-- Notebook Python
-- Heatmap de correlação
-- Matriz de confusão
-- Relatório de classificação
-- Evidências visuais
+- Arquitetura da solução;
+- Definição conceitual do projeto;
+- Apresentação da Sprint 1;
+- Dataset inicial.
+
+
+### 📂 Sprint2
+Contém os arquivos relacionados à implementação técnica da solução:
+
+- Dataset integrado (INMET + dados simulados);
+- Scripts SQL utilizados no Oracle SQL Developer;
+- Notebook Python desenvolvido no Google Colab;
+- Heatmap de correlação;
+- Matriz de confusão;
+- Relatório de classificação;
+- Evidências visuais da execução do modelo preditivo.
 
 
 
