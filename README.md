@@ -351,7 +351,7 @@ O resultado demonstrou elevada taxa de acerto nas classificações de risco baix
 
 ![Matriz de Confusão](Sprint2/Matriz_de_Confusão.png)
 
-###Relatório de Classificação
+### Relatório de Classificação
 
 O relatório de classificação foi utilizado para avaliar métricas como precisão, recall e F1-score do modelo Random Forest.
 
