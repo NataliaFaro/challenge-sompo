@@ -307,6 +307,8 @@ Exemplo da execução da consulta no Oracle SQL Developer:
 
 
 ## 🤖 Modelo Preditivo de IA
+- HeatMap
+- Random Forest
 
 ### Validação Estatística
 Durante a Sprint 2, foram realizadas análises estatísticas exploratórias para identificar correlações entre variáveis ambientais e operacionais presentes no dataset.
@@ -326,10 +328,11 @@ Foi possível identificar:
 ![Heatmap de Correlação](Heatmap_Correlação.png)
 
 ### Notebook Python
+O tratamento dos dados e as conversões numéricas foram realizados em Python utilizando Pandas, permitindo a preparação do dataset para análise estatística e treinamento do modelo preditivo.
 [Visualizar notebook da análise preditiva](Sprint2_Sompo_HeatMap.ipynb)
 
 
-## 📈 Validação Estatística
+
 
 ## 📊 Dashboard e Alertas
 
