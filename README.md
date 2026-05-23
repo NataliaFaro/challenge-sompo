@@ -373,7 +373,7 @@ O pipeline contempla:
 - Interface de monitoramento em tempo real.
 
 ### Diagrama da Arquitetura
-![Arquitetura da Solução](Sprint1/diagrama.png)
+![Arquitetura da Solução](Sprint2/diagrama.png)
 
 ---
 ## 🤖 Modelo Preditivo de IA
