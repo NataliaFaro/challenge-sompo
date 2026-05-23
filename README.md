@@ -325,6 +325,10 @@ Foi possível identificar:
 
 ![Heatmap de Correlação](Heatmap_Correlação.png)
 
+### Notebook Python
+[Visualizar notebook da análise preditiva](Sprint2_Sompo_HeatMap.ipynb)
+
+
 ## 📈 Validação Estatística
 
 ## 📊 Dashboard e Alertas
