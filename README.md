@@ -333,7 +333,7 @@ Foi possível identificar:
 
 ### Notebook Python
 O tratamento dos dados e as conversões numéricas foram realizados em Python utilizando Pandas, permitindo a preparação do dataset para análise estatística e treinamento do modelo preditivo.
-[Visualizar notebook da análise preditiva](Sprint2_Sompo_HeatMap.ipynb)
+[Visualizar notebook da análise preditiva](Sprint2_Sompo_Colab.ipynb)
 
 ### Modelo Random Forest
 Foi utilizado o algoritmo Random Forest para realizar a classificação dos níveis de risco operacional dos equipamentos agrícolas.
