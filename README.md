@@ -103,7 +103,7 @@ A solução utilizará dados simulados representando variáveis ambientais e ope
 
 Acesse o dataset utilizado no projeto:
 
-[Download do dataset](dataset_riscos_agricolas.xlsx)
+[Download do dataset](Sprint2/dataset_riscos_agricolas.xlsx)
 
 
 ### Variáveis consideradas:
@@ -290,7 +290,7 @@ A tabela foi modelada para armazenar variáveis ambientais e operacionais releva
 - Quantidade de falhas.
 
 ### Script SQL Utilizado
-[Visualizar tabela SQL](SPRINT2_RISCOSAGRICOLAS.sql)
+[Visualizar tabela SQL](Sprint2/SPRINT2_RISCOSAGRICOLAS.sql)
 
 ### Consulta SQL — Alto Desgaste Operacional
 Consulta utilizada para identificar equipamentos com elevado tempo de uso operacional.
@@ -303,7 +303,7 @@ WHERE HORAS_USO > 400;
 
 ### Resultado da Consulta
 Exemplo da execução da consulta no Oracle SQL Developer:
-![Consulta SQL - Horas Uso](Horas_Uso.png)
+![Consulta SQL - Horas Uso](Sprint2/Horas_Uso.png)
 
 
 ## 🤖 Modelo Preditivo de IA
@@ -330,11 +330,11 @@ Foi possível identificar:
 - Correlação negativa entre temperatura e umidade;
 - Relações coerentes entre fatores ambientais e operacionais.
 
-![Heatmap de Correlação](Heatmap_Correlação.png)
+![Heatmap de Correlação](Sprint2/Heatmap_Correlação.png)
 
 ### Notebook Python
 O tratamento dos dados e as conversões numéricas foram realizados em Python utilizando Pandas, permitindo a preparação do dataset para análise estatística e treinamento do modelo preditivo.
-[Visualizar notebook da análise preditiva](Sprint2_Sompo_Colab.ipynb)
+[Visualizar notebook da análise preditiva](Sprint2/Sprint2_Sompo_Colab.ipynb)
 
 ### Modelo Random Forest
 Foi utilizado o algoritmo Random Forest para realizar a classificação dos níveis de risco operacional dos equipamentos agrícolas.
@@ -349,7 +349,7 @@ A matriz de confusão foi utilizada para avaliar o desempenho do modelo Random F
 
 O resultado demonstrou elevada taxa de acerto nas classificações de risco baixo, médio e alto, reforçando a coerência do modelo preditivo.
 
-![Matriz de Confusão](Matriz_de_Confusão.png)
+![Matriz de Confusão](Sprint2/Matriz_de_Confusão.png)
 
 ###Relatório de Classificação
 
@@ -357,7 +357,7 @@ O relatório de classificação foi utilizado para avaliar métricas como precis
 
 Os resultados demonstraram elevado desempenho do modelo na classificação dos níveis de risco operacional, reforçando a consistência da abordagem preditiva adotada.
 
-![Relatório de Classificação](relatorio_classificação.png)
+![Relatório de Classificação](Sprint2/relatorio_classificação.png)
 
 
 ## 🎥 Vídeo da Sprint 2
