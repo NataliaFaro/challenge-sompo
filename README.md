@@ -441,7 +441,7 @@ Os resultados demonstraram elevado desempenho do modelo na classificação dos n
 
 ---
 ## 🎥 Vídeo da Sprint 2
-
+https://youtu.be/YrzLkmvgkMg
 
 ---
 ## 📁 Estrutura do Repositório
