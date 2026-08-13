@@ -612,7 +612,7 @@ Prints das etapas de criação, população e validação do banco de dados, al�
 
 ## 🎥 Vídeo da Sprint 3
 
-📹 [Link do vídeo aqui — a adicionar]
+https://youtu.be/OQYjglTcu_c
 
 
 ---
