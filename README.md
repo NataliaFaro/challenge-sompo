@@ -553,7 +553,7 @@ Construído em Streamlit, conectado diretamente à tabela `SPRINT3_SCORES_RISCO`
 ## ⚙️ Como Executar o Projeto (Sprint 3)
 
 **1. Backend e modelo (Google Colab):**
-1. Abrir `Sprint2/Sprint2_Sompo.ipynb` no Google Colab;
+1. Abrir `Sprint3/Sprint3_Sompo.ipynb` no Google Colab;
 2. Rodar as células em ordem: conexão com Oracle (`oracledb`) → carregamento do dataset → treino do modelo → funções de segurança e backend (`gerar_e_salvar_scores`);
 3. Informar a senha do Oracle FIAP quando solicitado (via `getpass`, nunca em texto no código).
 
@@ -604,7 +604,7 @@ Contém os arquivos relacionados à implementação técnica da solução:
 ### 📂 Sprint3
 Contém os arquivos relacionados à integração e ao MVP funcional:
 
-- Notebook atualizado com backend, segurança e conexão Oracle (`Sprint2_Sompo.ipynb`);
+- Notebook atualizado com backend, segurança e conexão Oracle (`Sprint3_Sompo.ipynb`);
 - Script do dashboard (`dashboard.py`);
 - Modelo treinado exportado (`modelo_risco_agricola.pkl`);
 - Apresentação atualizada com arquitetura implementada, User Stories oficiais e personas aprofundadas.
