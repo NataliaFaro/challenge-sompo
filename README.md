@@ -623,13 +623,13 @@ Contém os arquivos relacionados à implementação técnica da solução:
 - Evidências visuais da execução do modelo preditivo.
 
 
-### 📂 Sprint3
+### 📂 [Sprint3](Sprint3/)
 
 Contém os arquivos relacionados à integração e ao MVP funcional:
 
-Notebook atualizado com backend, segurança e conexão Oracle (Sprint3_Sompo.ipynb)
-Script do dashboard (dashboard.py)
-Modelo treinado exportado (modelo_risco_agricola.pkl)
-Script SQL completo de criação de tabelas e consultas (sprint3_script_completo.sql)
-Apresentação atualizada com arquitetura implementada, User Stories oficiais e personas aprofundadas (Apresentacao - Sprint 3.pdf)
-Evidências de execução do banco de dados (prints do SQL Developer, ver seção 📸 Evidências de Execução)
+- Notebook atualizado com backend, segurança e conexão Oracle ([`Sprint3_Sompo.ipynb`](Sprint3/Sprint3_Sompo.ipynb))
+- Script do dashboard ([`dashboard.py`](Sprint3/dashboard.py))
+- Modelo treinado exportado ([`modelo_risco_agricola.pkl`](Sprint3/modelo_risco_agricola.pkl))
+- Script SQL completo de criação de tabelas e consultas ([`sprint3_script_completo.sql`](Sprint3/sprint3_script_completo.sql))
+- Apresentação atualizada com arquitetura implementada, User Stories oficiais e personas aprofundadas ([`Apresentacao - Sprint 3.pdf`](<Sprint3/Apresentacao - Sprint 3.pdf>))
+- Evidências de execução do banco de dados (prints do SQL Developer, ver seção [📸 Evidências de Execução](#-evidências-de-execução))
