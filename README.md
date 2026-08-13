@@ -449,7 +449,7 @@ https://youtu.be/YrzLkmvgkMg
 
 ## 📌 Objetivo da Sprint 3
 
-A Sprint 3 teve como objetivo transformar os componentes desenvolvidos nas Sprints 1 e 2 em um **MVP funcional integrado** (~60% da solução prometida em funcionamento), conectando de ponta a ponta: entrada de dados → banco → modelo de risco → segurança → interface de saída.
+A Sprint 3 teve como objetivo transformar os componentes desenvolvidos nas Sprints 1 e 2 em um MVP funcional integrado (~60% da solução prometida em funcionamento), conectando de ponta a ponta: **entrada de dados → banco → modelo de risco → segurança → interface de saída**.
 
 Diferente das sprints anteriores, o foco aqui não foi "o que" a solução faz, mas **"como os componentes funcionam juntos"** em um fluxo estável e auditável.
 
@@ -457,17 +457,19 @@ Diferente das sprints anteriores, o foco aqui não foi "o que" a solução faz, 
 
 Com base no material oficial de kickoff da Sompo, mapeamos explicitamente as User Stories às três visões do desafio — ponto identificado como pendente nas correções das Sprints 1 e 2.
 
-**Desafio oficial:** *IA para identificação de fatores ambientais e operacionais que aumentam o risco de dano ou perda de equipamentos agrícolas.*
+**Desafio oficial:** IA para identificação de fatores ambientais e operacionais que aumentam o risco de dano ou perda de equipamentos agrícolas.
 
 ### Visão Sompo (seguradora)
+
 - Quero identificar e quantificar fatores ambientais e operacionais que elevam a probabilidade de danos e perdas (colisão, proximidade de água, transporte, roubo/furto), para orientar prevenção e reduzir frequência de sinistros.
 - Quero que a solução gere alertas e recomendações preventivas antes de eventos típicos cobertos, para diminuir severidade e custo de sinistros.
 - Quero um score de risco por equipamento/cliente/região e por tipo de operação, para apoiar decisões técnicas e priorização de ações.
-- Quero que os resultados sejam explicáveis (principais *drivers* do risco), para sustentar conversas técnicas com clientes, corretoras e áreas internas.
+- Quero que os resultados sejam explicáveis (principais drivers do risco), para sustentar conversas técnicas com clientes, corretoras e áreas internas.
 - Quero registrar trilha de auditoria (dados usados, versão do modelo, evidências), para garantir governança e rastreabilidade do uso de IA.
 - Quero que a solução suporte integração com fontes diversas (telemetria, clima, mapas/água, rotas, histórico operacional), para ampliar cobertura e evoluir o MVP sem retrabalho.
 
 ### Visão Cliente (segurado / gestor de frota)
+
 - Quero receber um painel simples de risco por equipamento e por operação, para priorizar prevenção e reduzir perdas.
 - Quero saber quais fatores mais contribuem para o risco, para agir nos pontos de maior impacto.
 - Quero receber alertas em tempo de decisão, para evitar danos por colisão, atolamento ou risco em área próxima de água.
@@ -476,6 +478,7 @@ Com base no material oficial de kickoff da Sompo, mapeamos explicitamente as Use
 - Quero configurar limites e políticas internas (quando bloquear operação, quando só alertar), para adaptar a solução à minha operação.
 
 ### Visão Usuário Final (operador, gestor, técnico, corretor, Sompo interno)
+
 | Papel | User Story |
 |---|---|
 | Operador de campo | Quero receber um alerta quando houver alto risco de colisão com obstáculos no solo, para ajustar a condução e evitar danos. |
@@ -488,21 +491,21 @@ Com base no material oficial de kickoff da Sompo, mapeamos explicitamente as Use
 
 ### Personas aprofundadas
 
-**Operador de campo** — *dor:* não sabe, na hora, se o solo ou o clima colocam a máquina em risco de colisão ou atolamento. *Contexto:* opera equipamentos móveis em áreas variáveis, muitas vezes próximas a corpos d'água. *Decisão apoiada:* recebe alerta antes de iniciar/continuar a operação, com recomendação de rota ou adiamento.
+**Operador de campo** — dor: não sabe, na hora, se o solo ou o clima colocam a máquina em risco de colisão ou atolamento. Contexto: opera equipamentos móveis em áreas variáveis, muitas vezes próximas a corpos d'água. Decisão apoiada: recebe alerta antes de iniciar/continuar a operação, com recomendação de rota ou adiamento.
 
-**Gestor de frota** — *dor:* descobre falhas e danos só depois que aconteceram. *Contexto:* responde por múltiplos equipamentos e operações simultâneas. *Decisão apoiada:* usa ranking de risco por equipamento para priorizar manutenção preventiva.
+**Gestor de frota** — dor: descobre falhas e danos só depois que aconteceram. Contexto: responde por múltiplos equipamentos e operações simultâneas. Decisão apoiada: usa ranking de risco por equipamento para priorizar manutenção preventiva.
 
-**Sompo interna (subscrição e sinistros)** — *dor:* avalia risco e sinistros com base em informação incompleta, sem trilha de auditoria. *Contexto:* precisa de score explicável e histórico auditável. *Decisão apoiada:* consulta score explicável e log de uso para embasar decisão técnica.
+**Sompo interna (subscrição e sinistros)** — dor: avalia risco e sinistros com base em informação incompleta, sem trilha de auditoria. Contexto: precisa de score explicável e histórico auditável. Decisão apoiada: consulta score explicável e log de uso para embasar decisão técnica.
 
 ## 🔄 Evolução em Relação à Sprint 2
 
 O feedback da Sprint 2 apontou como pontos de melhoria: conectar o banco ao modelo em um mesmo fluxo, desenvolver uma interface de saída com alertas, e documentar as escolhas da inteligência preditiva. A Sprint 3 endereça diretamente esses três pontos:
 
-- ✅ Banco e modelo conectados em um único fluxo automatizado (não mais passos manuais separados);
-- ✅ Interface de saída construída (dashboard Streamlit com alertas);
-- ✅ Documentação das escolhas técnicas (algoritmo, segurança, arquitetura) nesta seção;
-- ✅ User Stories oficiais mapeadas às 3 visões do desafio (pendência desde a Sprint 1);
-- ✅ Personas aprofundadas com dor, contexto e decisão apoiada.
+- ✅ Banco e modelo conectados em um único fluxo automatizado (não mais passos manuais separados)
+- ✅ Interface de saída construída (dashboard Streamlit com alertas)
+- ✅ Documentação das escolhas técnicas (algoritmo, segurança, arquitetura) nesta seção
+- ✅ User Stories oficiais mapeadas às 3 visões do desafio (pendência desde a Sprint 1)
+- ✅ Personas aprofundadas com dor, contexto e decisão apoiada
 
 ## 🏗️ Arquitetura Implementada (MVP)
 
@@ -520,7 +523,7 @@ Oracle FIAP (nuvem)   <──lê dados──   Google Colab
                      - Tabela colorida por nível de risco
 ```
 
-**Por que o dashboard roda no PC local e não no Colab:** em testes de conexão (via `socket` em Python), identificamos que o Google Colab não consegue acessar a porta do Oracle FIAP (`oracle.fiap.com.br:1521`) — a conexão dá *timeout*, indicando bloqueio de rede/firewall do lado do servidor Oracle da FIAP, que provavelmente só aceita conexões de dentro da rede da instituição. O SQL Developer local e o Streamlit rodando no PC, por outro lado, conectam normalmente. Por isso, o processamento (modelo + segurança) roda no Colab, e a camada de apresentação roda localmente, ambos lendo/gravando no mesmo banco Oracle.
+**Por que o dashboard roda no PC local e não no Colab:** em testes de conexão (via socket em Python), identificamos que o Google Colab não consegue acessar a porta do Oracle FIAP (`oracle.fiap.com.br:1521`) — a conexão dá timeout, indicando bloqueio de rede/firewall do lado do servidor Oracle da FIAP, que provavelmente só aceita conexões de dentro da rede da instituição. O SQL Developer local e o Streamlit rodando no PC, por outro lado, conectam normalmente. Por isso, o processamento (modelo + segurança) roda no Colab, e a camada de apresentação roda localmente, ambos lendo/gravando no mesmo banco Oracle.
 
 ## 🗄️ Banco de Dados — Novas Tabelas
 
@@ -531,33 +534,39 @@ Além da `SPRINT2_RISCOSAGRICOLAS` (Sprint 2), foram criadas:
 | `SPRINT3_SCORES_RISCO` | Mesmas variáveis de entrada + `score_risco` (0–100), `classificacao_risco` (baixo/médio/alto) e `data_processamento` |
 | `SPRINT3_LOG_ACESSOS` | Auditoria: `usuario`, `perfil`, `acao`, `data_hora` de cada geração de score |
 
+Os scripts de criação estão em [`sql/01_create_tables.sql`](sql/01_create_tables.sql) e as consultas de validação em [`sql/02_queries.sql`](sql/02_queries.sql).
+
 ## 🔒 Segurança
 
-**Implementado no MVP:**
-- Controle de acesso por perfil (operador, gestor, seguradora), cada um com permissões distintas de leitura/geração de score;
-- Log de auditoria no Oracle — toda geração de score é registrada com usuário, perfil, ação e timestamp;
-- Validação de dados de entrada (rejeita valores fora de faixas plausíveis, ex: umidade fora de 0–100%);
-- Senhas fora do código-fonte (variáveis de ambiente / Colab Secrets).
+Implementado no MVP:
+
+- Controle de acesso por perfil (operador, gestor, seguradora), cada um com permissões distintas de leitura/geração de score
+- Log de auditoria no Oracle — toda geração de score é registrada com usuário, perfil, ação e timestamp
+- Validação de dados de entrada (rejeita valores fora de faixas plausíveis, ex: umidade fora de 0–100%)
+- Senhas fora do código-fonte (variáveis de ambiente / Colab Secrets)
 
 **Visão futura de produto** (fora do escopo deste MVP): criptografia ponta a ponta (TLS + repouso), conformidade formal com a LGPD, autenticação real de usuários, alta disponibilidade.
 
 ## 📊 Dashboard (Streamlit)
 
 Construído em Streamlit, conectado diretamente à tabela `SPRINT3_SCORES_RISCO` no Oracle FIAP:
-- Filtro por nível de risco (barra lateral);
-- 4 cards de métricas (total de registros, risco alto, risco médio, score médio);
-- Aba "Visão geral": gráfico de barras (distribuição por risco) e linha (evolução do score);
-- Aba "Alertas críticos": equipamentos em risco alto, destacados;
-- Aba "Dados detalhados": tabela colorida por nível de risco (vermelho/laranja/verde).
+
+- Filtro por nível de risco (barra lateral)
+- 4 cards de métricas (total de registros, risco alto, risco médio, score médio)
+- Aba "Visão geral": gráfico de barras (distribuição por risco) e linha (evolução do score)
+- Aba "Alertas críticos": equipamentos em risco alto, destacados
+- Aba "Dados detalhados": tabela colorida por nível de risco (vermelho/laranja/verde)
 
 ## ⚙️ Como Executar o Projeto (Sprint 3)
 
-**1. Backend e modelo (Google Colab):**
-1. Abrir `Sprint3/Sprint3_Sompo.ipynb` no Google Colab;
-2. Rodar as células em ordem: conexão com Oracle (`oracledb`) → carregamento do dataset → treino do modelo → funções de segurança e backend (`gerar_e_salvar_scores`);
-3. Informar a senha do Oracle FIAP quando solicitado (via `getpass`, nunca em texto no código).
+### 1. Backend e modelo (Google Colab)
 
-**2. Dashboard (PC local):**
+- Abrir `Sprint3/Sprint3_Sompo.ipynb` no Google Colab
+- Rodar as células em ordem: conexão com Oracle (`oracledb`) → carregamento do dataset → treino do modelo → funções de segurança e backend (`gerar_e_salvar_scores`)
+- Informar a senha do Oracle FIAP quando solicitado (via `getpass`, nunca em texto no código)
+
+### 2. Dashboard (PC local)
+
 ```bash
 pip install streamlit oracledb pandas
 
@@ -568,11 +577,12 @@ export SENHA_ORACLE="sua_senha_aqui"
 
 streamlit run dashboard.py
 ```
+
 O dashboard abre em `http://localhost:8501`.
 
 ## 🎥 Vídeo da Sprint 3
 
-📹 **[Link do vídeo aqui — a adicionar]**
+📹 [Link do vídeo aqui — a adicionar]
 
 
 ---
@@ -602,9 +612,11 @@ Contém os arquivos relacionados à implementação técnica da solução:
 
 
 ### 📂 Sprint3
+
 Contém os arquivos relacionados à integração e ao MVP funcional:
 
-- Notebook atualizado com backend, segurança e conexão Oracle (`Sprint3_Sompo.ipynb`);
-- Script do dashboard (`dashboard.py`);
-- Modelo treinado exportado (`modelo_risco_agricola.pkl`);
-- Apresentação atualizada com arquitetura implementada, User Stories oficiais e personas aprofundadas.
+- Notebook atualizado com backend, segurança e conexão Oracle (`Sprint3_Sompo.ipynb`)
+- Script do dashboard (`dashboard.py`)
+- Modelo treinado exportado (`modelo_risco_agricola.pkl`)
+- Scripts SQL de criação de tabelas e consultas (`sql/`)
+- Apresentação atualizada com arquitetura implementada, User Stories oficiais e personas aprofundadas
