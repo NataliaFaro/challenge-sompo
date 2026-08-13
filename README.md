@@ -586,9 +586,9 @@ streamlit run dashboard.py
 O dashboard abre em `http://localhost:8501`. Script fonte: [`Sprint3/dashboard.py`](Sprint3/dashboard.py).
 
 **Dashboard (Streamlit)**
-[Visão geral: KPIs e gráficos](Sprint3/07_dashboard_visao_geral.png)
-[Alertas críticos](Sprint3/08_dashboard_alertas_criticos.png)
-[Dados detalhados](Sprint3/09_dashboard_dados_detalhados.png)
+[Visão geral: KPIs e gráficos](Sprint3/07_dashboard_visao_geral.png), 
+[Alertas críticos](Sprint3/08_dashboard_alertas_criticos.png), 
+[Dados detalhados](Sprint3/09_dashboard_dados_detalhados.png).
 
 
 ## 📸 Evidências de Execução
@@ -604,6 +604,7 @@ Prints das etapas de criação, população e validação do banco de dados, al�
 6. [Distribuição de registros por classificação de risco](Sprint3/06_distribuicao_risco.png)
 
 **Dashboard (Streamlit)**
+
 7. [Visão geral: KPIs e gráficos](Sprint3/07_dashboard_visao_geral.png)
 8. [Alertas críticos](Sprint3/08_dashboard_alertas_criticos.png)
 9. [Dados detalhados](Sprint3/09_dashboard_dados_detalhados.png)
