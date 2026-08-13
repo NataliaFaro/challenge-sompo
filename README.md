@@ -585,16 +585,28 @@ streamlit run dashboard.py
 
 O dashboard abre em `http://localhost:8501`. Script fonte: [`Sprint3/dashboard.py`](Sprint3/dashboard.py).
 
-### 📸 Evidências de Execução
+**Dashboard (Streamlit)**
+[Visão geral: KPIs e gráficos](Sprint3/07_dashboard_visao_geral.png)
+[Alertas críticos](Sprint3/08_dashboard_alertas_criticos.png)
+[Dados detalhados](Sprint3/09_dashboard_dados_detalhados.png)
 
-Prints das etapas de criação, população e validação do banco de dados, disponíveis em [`Sprint3/`](Sprint3/):
 
+## 📸 Evidências de Execução
+
+Prints das etapas de criação, população e validação do banco de dados, além do dashboard em funcionamento, disponíveis em [`Sprint3/`](Sprint3/):
+
+**Banco de dados (Oracle)**
 1. [Tabelas criadas com sucesso](Sprint3/01_tabelas_criadas_sucesso.png)
 2. [Estrutura das tabelas (DESCRIBE)](Sprint3/02_describe_tabelas.png)
 3. [Dados populados em SPRINT3_SCORES_RISCO](Sprint3/03_scores_risco_populado.png)
 4. [Log de acessos em SPRINT3_LOG_ACESSOS](Sprint3/04_log_acessos_populado.png)
 5. [Validação rejeitando dado inválido (umidade fora de 0–100%)](Sprint3/05_validacao_dado_invalido_rejeitado.png)
 6. [Distribuição de registros por classificação de risco](Sprint3/06_distribuicao_risco.png)
+
+**Dashboard (Streamlit)**
+7. [Visão geral: KPIs e gráficos](Sprint3/07_dashboard_visao_geral.png)
+8. [Alertas críticos](Sprint3/08_dashboard_alertas_criticos.png)
+9. [Dados detalhados](Sprint3/09_dashboard_dados_detalhados.png)
 
 
 ## 🎥 Vídeo da Sprint 3
