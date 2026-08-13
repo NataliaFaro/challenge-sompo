@@ -12,7 +12,7 @@ Natalia de Lima Faro - RM 568610
 |---|---|
 | 1 | ✅ Concluída |
 | 2 | ✅ Concluída |
-| 3 | 🚧 Em desenvolvimento |
+| 3 | ✅ Concluída |
 
 ## 👩‍🏫 Professores
 
@@ -452,6 +452,11 @@ https://youtu.be/YrzLkmvgkMg
 A Sprint 3 teve como objetivo transformar os componentes desenvolvidos nas Sprints 1 e 2 em um MVP funcional integrado (~60% da solução prometida em funcionamento), conectando de ponta a ponta: **entrada de dados → banco → modelo de risco → segurança → interface de saída**.
 
 Diferente das sprints anteriores, o foco aqui não foi "o que" a solução faz, mas **"como os componentes funcionam juntos"** em um fluxo estável e auditável.
+
+## 📑 Apresentação da Sprint 3
+
+A apresentação completa, com arquitetura implementada, User Stories oficiais e personas aprofundadas, está disponível em:
+[`Sprint3/Apresentacao - Sprint 3.pdf`](<Sprint3/Apresentacao - Sprint 3.pdf>)
 
 ## 🎯 User Stories Oficiais e Personas Aprofundadas
 
